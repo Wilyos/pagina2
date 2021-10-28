@@ -1,0 +1,27 @@
+.fuente1{ 
+        font-family: 'Fondamento', cursive;
+        color: goldenrod
+}
+.fuente2{
+        font-family: 'RocknRoll One', sans-serif;
+        font-size: small;
+}
+
+.fondo{
+        background-image: url("img/soberband.jpg") ;
+        height: 600px;
+        background-attachment: fixed;
+}   
+
+.zoom{
+        transition: transform .2s;
+}
+.zoom:hover{        
+                transform: scale(1.3); 
+}
+
+.social, .social:link, .social:hover, .social:active{
+        color: inherit; 
+        text-decoration: none;      
+}
+
